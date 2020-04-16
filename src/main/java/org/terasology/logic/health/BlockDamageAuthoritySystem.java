@@ -15,6 +15,8 @@
  */
 package org.terasology.logic.health;
 
+import org.joml.Vector2f;
+import org.joml.Vector3f;
 import org.terasology.audio.AudioManager;
 import org.terasology.audio.StaticSound;
 import org.terasology.audio.events.PlaySoundEvent;
@@ -31,8 +33,6 @@ import org.terasology.logic.health.event.OnDamagedEvent;
 import org.terasology.logic.health.event.OnFullyHealedEvent;
 import org.terasology.logic.location.LocationComponent;
 import org.terasology.math.TeraMath;
-import org.terasology.math.geom.Vector2f;
-import org.terasology.math.geom.Vector3f;
 import org.terasology.particles.components.ParticleDataSpriteComponent;
 import org.terasology.particles.components.generators.TextureOffsetGeneratorComponent;
 import org.terasology.registry.In;

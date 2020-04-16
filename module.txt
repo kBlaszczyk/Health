@@ -1,6 +1,6 @@
 {
     "id" : "Health",
-    "version" : "0.1.0-SNAPSHOT",
+    "version" : "0.1.0",
     "author" : "E Aakash",
     "displayName" : "Health",
     "description" : "This module provides basic implementation of Health",
